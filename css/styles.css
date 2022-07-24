@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .24s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    background-color:#FFD845;
+    padding: 3.125rem auto;
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 3.125rem auto;
+}
+.icon-heart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bi-heart{
+    font-size: 2rem;
+}
+.pokemon-logo{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.pokemon-logo img{
+    width:100%;
+}
+.form-elements form{
+  display:grid;
+  grid-template-columns: 1fr 1.5fr 1fr .8fr;
+  gap:2.2rem;
+  margin: 4.375rem auto;
+}
+form input, select, button{
+    border-radius: 15px;
+    background-color: white;
+    height: 3rem;
+    width:100%;
+    font-weight: 700;
+font-size: 24px;
+}
+form button{
+    border: 1px solid lightgray;
+}
+form select{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 0 4rem;
+}
+.search{
+    padding: 0 29px;
+}
+.search::placeholder{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color: #000;
+}
+.card-icon i{
+    font-size:30px;
+}
+.card-text p{
+    font-size: 20px;
+    font-weight:500;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 6.25rem 0;
+    margin-bottom: 10rem;
+}
+.card {
+    background-color: white;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    width:100%
+}
+.card .card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 2px solid #000;
+}
+.card-header img{
+    margin: 1rem;
+}
+.card .card-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+}
+.card .card-footer{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom:37px;
+    gap:30px;
+    padding-left:1.5rem;
+}
